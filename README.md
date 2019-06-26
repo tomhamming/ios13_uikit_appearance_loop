@@ -1,5 +1,5 @@
 # iOS 13 UIAppearance Infinite Loop
-Demo app for an iOS 13 beta bug where UIKit gets into an infinite loop when setting UIAppearance proxy properties
+Demo app for an iOS 13 beta bug (FB6270051) where UIKit gets into an infinite loop when setting UIAppearance proxy properties
 
 If you set a view's appearance proxy's overrideUserInterfaceStyle to the current style, then to the opposite style, then back to the current style, it can get into some sort of infinite loop involving layout or applying traits or something like that.
 
